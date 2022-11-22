@@ -1,0 +1,44 @@
+.alltodos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.todo{
+    border: 2px solid green;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 15px;
+    background: wheat;
+}
+.todo_header{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.todo_header input{
+    margin-left: 20px;
+    padding: 6px 8px;
+}
+.todo_description{
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.todo_description input{
+    margin-left: 20px;
+    padding: 6px 8px;
+}
+.isCompleted {
+    text-decoration: line-through;
+}
+.datelost{
+        font-size: 32px;
+        color: red;
+}
